@@ -29,6 +29,10 @@ Partial Class employee_edit_menu
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -75,9 +79,9 @@ Partial Class employee_edit_menu
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 99)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 131)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(776, 339)
+        Me.DataGridView1.Size = New System.Drawing.Size(776, 307)
         Me.DataGridView1.TabIndex = 11
         '
         'Button2
@@ -94,17 +98,61 @@ Partial Class employee_edit_menu
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(621, 80)
+        Me.Label1.Location = New System.Drawing.Point(621, 112)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(174, 16)
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Select an entry to edit it"
+        '
+        'Button9
+        '
+        Me.Button9.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Location = New System.Drawing.Point(624, 67)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(74, 30)
+        Me.Button9.TabIndex = 17
+        Me.Button9.Text = "Add new"
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Location = New System.Drawing.Point(450, 67)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(74, 30)
+        Me.Button6.TabIndex = 18
+        Me.Button6.Text = "Add new"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Location = New System.Drawing.Point(278, 67)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(74, 30)
+        Me.Button7.TabIndex = 19
+        Me.Button7.Text = "Add new"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Location = New System.Drawing.Point(104, 67)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(74, 30)
+        Me.Button8.TabIndex = 20
+        Me.Button8.Text = "Add new"
+        Me.Button8.UseVisualStyleBackColor = True
         '
         'employee_edit_menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.DataGridView1)
@@ -127,4 +175,8 @@ Partial Class employee_edit_menu
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button2 As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
+    Friend WithEvents Button8 As Button
 End Class

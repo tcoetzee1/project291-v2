@@ -1,3 +1,3 @@
 ﻿Public Class GlobalVariables
-    Public Shared serverString As String = "Data Source=DESKTOP-03PLFAS;Integrated Security=True"
+    Public Shared serverString As String = "Data Source=TCOMPUTER;Integrated Security=True"
 End Class
