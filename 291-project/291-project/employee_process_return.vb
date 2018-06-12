@@ -29,7 +29,7 @@ Public Class employee_process_return
     Public Shared returnProcess As New List(Of String)
     Dim VID = 0
 
-    Private Sub DataGridView1_CelldbClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellDoubleClick
+    Private Sub DataGridView1_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
 
 
         Dim i As Integer
@@ -58,6 +58,4 @@ Public Class employee_process_return
         End If
 
     End Sub
-
-
 End Class

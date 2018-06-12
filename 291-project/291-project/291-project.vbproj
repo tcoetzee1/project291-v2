@@ -109,12 +109,6 @@
     <Compile Include="pickupProcessInfo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="reports.Designer.vb">
-      <DependentUpon>reports.vb</DependentUpon>
-    </Compile>
-    <Compile Include="reports.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="returnInfo.Designer.vb">
       <DependentUpon>returnInfo.vb</DependentUpon>
     </Compile>
@@ -204,9 +198,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pickupProcessInfo.resx">
       <DependentUpon>pickupProcessInfo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="reports.resx">
-      <DependentUpon>reports.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="returnInfo.resx">
       <DependentUpon>returnInfo.vb</DependentUpon>

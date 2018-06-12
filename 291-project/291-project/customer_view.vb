@@ -73,7 +73,7 @@ Public Class customer_view
     Public Shared words As New List(Of String)
     Public Shared VID
 
-    Private Sub DataGridView1_Celldbclick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellDoubleClick
+    Private Sub DataGridView1_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
 
         Dim i As Integer
         i = DataGridView1.CurrentRow.Index

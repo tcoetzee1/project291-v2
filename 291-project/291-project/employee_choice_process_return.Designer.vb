@@ -26,8 +26,6 @@ Partial Class employee_choice_process_return
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button2
@@ -53,7 +51,7 @@ Partial Class employee_choice_process_return
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(96, 453)
+        Me.Button3.Location = New System.Drawing.Point(98, 299)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(150, 57)
         Me.Button3.TabIndex = 9
@@ -70,33 +68,11 @@ Partial Class employee_choice_process_return
         Me.Button4.Text = "Edit database entries"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'Button5
-        '
-        Me.Button5.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(36, 369)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(279, 78)
-        Me.Button5.TabIndex = 11
-        Me.Button5.Text = "View Reports"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(36, 285)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(279, 78)
-        Me.Button6.TabIndex = 12
-        Me.Button6.Text = "Make Booking"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
         'employee_choice_process_return
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(348, 545)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
+        Me.ClientSize = New System.Drawing.Size(348, 381)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -111,6 +87,4 @@ Partial Class employee_choice_process_return
     Friend WithEvents Button1 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
 End Class
